@@ -6,5 +6,5 @@ machine:
 test:
     override:
     - chmod +x ./node_modules/.bin/mocha
-        - bash script/test
+    - bash script/test
         
