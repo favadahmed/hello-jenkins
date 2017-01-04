@@ -1,9 +1,10 @@
 machine:
   node:
     version: 7.3.0
-    
-    
+
+
 test:
     override:
+    - chmod +x ./node_modules/.bin/mocha
         - bash script/test
         
