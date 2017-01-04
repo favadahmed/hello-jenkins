@@ -5,5 +5,5 @@ machine:
     
 test:
     override:
-        - sh script/test
+        - bash script/test
         
