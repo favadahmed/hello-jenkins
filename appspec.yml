@@ -8,11 +8,3 @@ files:
 permissions:
 
 
-hooks:
-  ApplicationStop:
-
-  AfterInstall:
-
-  ApplicationStart:
-
-  ValidateService:
