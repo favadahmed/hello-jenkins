@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+- source: /
+ destination: /home/ubuntu/hello-jenkins/hello-jenkins
+
+permissions:
+
+
+hooks:
+ApplicationStop:
+
+AfterInstall:
+
+ApplicationStart:
+
+ValidateService:
