@@ -8,7 +8,7 @@ test:
     - chmod +x ./node_modules/.bin/mocha
     - bash script/test
     
-    deployment:
+deployment:
   staging:
     branch: master
     codedeploy:
